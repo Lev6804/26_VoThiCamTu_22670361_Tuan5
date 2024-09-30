@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'MyFont'; 
+    src: url('../fonts/Harlow\ Solid\ Italic\ Italic.ttf') format('truetype'); /* đường dẫn đến file font */
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+}
+nav{
+    position: relative;
+    width: 70%;
+    height: 10%;
+    /* background-color: black; */
+    
+}
+#nh3{
+    position: absolute;
+    color: white;
+    font-family: MyFont;
+    left: 0;
+    top: 15px;
+}
+#navul{
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+#nli{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#na{
+    text-decoration-line: none;
+    color: white;
+}
+#nahome{
+    text-decoration-line: none;
+    color: rgb(251, 222, 92);
+}
+#nicon1{
+    position: absolute;
+    right: 235px;
+    top: 25px;
+    color: aliceblue;
+}
+#na:hover{
+    color: rgb(251, 222, 92);
+}
+#nicon2{
+    position: absolute;
+    right: 175px;
+    top: 25px;
+    color: aliceblue;
+}
+#nicon3{
+    position: absolute;
+    right: 205px;
+    top: 25px;
+    color: aliceblue;
+}
+#nbtn{
+    position: absolute;
+    right: 3px;
+    top: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+section{
+    margin-top: 200px;
+    position: relative;
+    width: 70%;
+    height: 30%;
+    /* background-color: red;  */
+}
+#sh1{
+    color: white;
+    font-family: MyFont;
+}
+#sp{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    float: left;
+    text-align: justify;
+    font-size: 12px;
+    font-family: 10;
+}
+#sbtn{
+    position: absolute;
+    left: 3px;
+    top: 135px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
